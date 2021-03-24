@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+:root {
+  --blue: #1da1f2;
+  --black: #14171a;
+  --darkGrey: #657786;
+  --lightGrey: #aab8c2;
+  --lighterGrey: #e1e8ed;
+  --lightestGrey: #f5f8fa;
+  --warn: #d32406;
+}
+
+body {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  background-color: #8ac4d0;
+  height: 100%;
+}
+
+h2 {
+  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
+}
+
+p {
+  margin-block-start: 0;
+}
+
+.data-section {
+  background-color: #28527a;
+  max-width: 75%;
+  margin: auto;
+  border: 2px solid var(--black);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px var(--darkGrey), -5px -5px 15px var(--darkGrey);
+  padding: 1rem;
+}
+
+.txt-tweet {
+  resize: none;
+  width: 80%;
+  height: 100px;
+  font-family: inherit;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  background-color: #fbeeac;
+  outline: none;
+}
+
+.txt-tweet::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+.txt-tweet::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgba(245, 248, 250, 0.4);
+  -webkit-border-radius: 2rem;
+  border-radius: 2rem;
+}
+
+.txt-tweet::-webkit-scrollbar-thumb {
+  background-color: #f4d160;
+  outline: none;
+  cursor: grab;
+  border-radius: 1rem;
+}
+
+.txt-tweet::-webkit-scrollbar-thumb:hover {
+  background: rgba(101, 119, 134, 0.7);
+  cursor: grab;
+}
+
+.btn-tag {
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  background-color: #f4d160;
+  color: var(--black);
+  font-weight: bold;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-tweet {
+  font-size: larger;
+  border: 2px solid var(--lighterGrey);
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  background-color: var(--darkGrey);
+  font-weight: bolder;
+}
+
+img {
+  height: 25px;
+  padding: 0.2rem;
+  border-radius: 50%;
+  margin-bottom: -7px;
+}
+
+.btn-tweet:hover {
+  background-color: var(--lightGrey);
+  border: 2px solid var(--darkGrey);
+}
+
+.btn-tweet:hover img {
+  background-color: var(--lighterGrey);
+}
+
+.txt-output {
+  font-family: inherit;
+  overflow: auto;
+  margin-block-end: 0;
+}
+
+.limit-tweet {
+  margin: auto;
+  max-width: 8vw;
+  padding: 0.5rem 0.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--black);
+  color: var(--blue);
+  background-color: var(--lightestGrey);
+}
+
+.limit-exceed {
+  margin: auto;
+  max-width: 8vw;
+  padding: 0.5rem 0.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--warn);
+  color: var(--warn);
+  background-color: rgba(200, 0, 0, 0.1);
+}
+
+.btn-section {
+  /* border: 1px solid black; */
+  max-width: 85%;
+  margin: auto;
+}
+.txt-output::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.txt-output::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgba(245, 248, 250, 0.4);
+  -webkit-border-radius: 2rem;
+  border-radius: 2rem;
+}
+
+.txt-output::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  outline: none;
+  cursor: grab;
+  border-radius: 1rem;
+}
+
+.txt-output::-webkit-scrollbar-thumb:hover {
+  background: rgba(101, 119, 134, 0.7);
+  cursor: grab;
+}
+
+footer {
+  max-width: 70%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--darkGrey);
+  color: var(--lightestGrey);
+}
+
+footer a {
+  color: var(--lighterGrey);
+  text-decoration: none;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  /* border: 1px dashed var(--black); */
+}
+footer a:hover {
+  text-decoration: underline;
+  /* border: 1px solid var(--black); */
+  color: var(--black);
+}
+
+.social-media {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  padding: 0.2rem 0.1rem;
+}
+
+.social-media:hover {
+  border: 1px solid var(--lighterGrey);
+}
+
+.inpt-startDate {
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: rgb(27, 58, 70);
+  color: rgba(255, 255, 255, 0.959);
+  font-weight: bold;
+  font-family: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .limit-tweet {
+    max-width: 15vw;
+  }
+}
