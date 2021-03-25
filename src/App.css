@@ -114,19 +114,18 @@ img {
 
 .limit-tweet {
   margin: auto;
-  max-width: 8vw;
+  /* max-width: 15vw; */
   padding: 0.5rem 0.4rem;
-  border-radius: 50%;
-  border: 1px solid var(--black);
+  border-radius: 20%;
+  border: 2px solid var(--black);
   color: var(--blue);
   background-color: var(--lightestGrey);
 }
 
 .limit-exceed {
   margin: auto;
-  max-width: 8vw;
   padding: 0.5rem 0.4rem;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 1px solid var(--warn);
   color: var(--warn);
   background-color: rgba(200, 0, 0, 0.1);
@@ -137,7 +136,7 @@ img {
   max-width: 85%;
   margin: auto;
 }
-.txt-output::-webkit-scrollbar {
+/* .txt-output::-webkit-scrollbar {
   height: 0.5rem;
 }
 
@@ -157,7 +156,7 @@ img {
 .txt-output::-webkit-scrollbar-thumb:hover {
   background: rgba(101, 119, 134, 0.7);
   cursor: grab;
-}
+} */
 
 footer {
   max-width: 70%;

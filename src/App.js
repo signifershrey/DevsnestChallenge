@@ -105,12 +105,24 @@ function App() {
 
           <p>{tweetTag}</p>
           
-          <h4 className={tweetSize <= 280 ? "limit-tweet" : "limit-exceed"}>Limit : {tweetSize}/280</h4>
+          <h4 className={tweetSize <= 280 ? "limit-tweet" : "limit-exceed"}>Character Limit : {tweetSize}/280</h4>
         </div>
         <br />
         <span className="btn-tweet" onClick={sendTweet}>Tweet <img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" /></span>
         <br />
       </div>
+      <footer>
+        <p>This app currently tracks the calendar day number starting from 23rd March 2021.</p>
+      
+        <p>
+        <span>
+  
+            <p>Let's Connect on:</p>
+            <a href="https://twitter.com/Shrey_maurya15" target="_blank" rel="noreferrer"><img className="social-media" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" width="30" alt="Twitter"></img></a>
+        </span>
+        </p>
+        <p> Copyright © 2021  </p>
+      </footer>
   
     </div>
   );
