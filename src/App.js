@@ -117,12 +117,14 @@ function App() {
         <p>
         <span>
   
-            <p>Let's Connect on:</p>
-            <a href="https://twitter.com/Shrey_maurya15" target="_blank" rel="noreferrer"><img className="social-media" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" width="30" alt="Twitter"></img></a>
+            <p>Connect with me on:</p>
+            
+            <a href="https://twitter.com/Shrey_maurya15" 
+            ><img className="social-media" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" width="30" ></img></a>
         </span>
         </p>
         <p> Copyright © Shrey Maurya 2021  </p>
-      </footer>
+      </footer>  
   
     </div>
   );
