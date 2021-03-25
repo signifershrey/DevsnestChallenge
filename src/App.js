@@ -121,7 +121,7 @@ function App() {
             <a href="https://twitter.com/Shrey_maurya15" target="_blank" rel="noreferrer"><img className="social-media" src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" width="30" alt="Twitter"></img></a>
         </span>
         </p>
-        <p> Copyright © 2021  </p>
+        <p> Copyright © Shrey Maurya 2021  </p>
       </footer>
   
     </div>
