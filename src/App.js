@@ -114,7 +114,7 @@ function App() {
       <footer>
        
         <p>This challenge is about developing a habit to code consistently and sharing your learning to make your self visible in the community.</p>
-         <p>This app currently tracks the calendar day number starting from 24th March 2021.</p>
+         <p>This app currently tracks the calendar day number starting from 23th March 2021.</p>
         <p>
         <span>
   
