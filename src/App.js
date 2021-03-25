@@ -4,7 +4,7 @@ import React from 'react';
 
 
 //Starting form 23th March 2021
-let startDate = new Date("2021-3-23");
+let startDate = new Date("2021-3-24");
 let todayDate = new Date();
 
 let diffInDays = Math.ceil((todayDate.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
@@ -112,8 +112,9 @@ function App() {
         <br />
       </div>
       <footer>
-        <p>This app currently tracks the calendar day number starting from 23rd March 2021.</p>
-      
+       
+        <p>This challenge is about developing a habit to code consistently and sharing your learning to make your self visible in the community.</p>
+         <p>This app currently tracks the calendar day number starting from 24th March 2021.</p>
         <p>
         <span>
   
