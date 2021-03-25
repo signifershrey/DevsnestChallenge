@@ -4,7 +4,7 @@ import React from 'react';
 
 
 //Starting form 23th March 2021
-let startDate = new Date("23/03/2021");
+let startDate = new Date("2021-3-23");
 let todayDate = new Date();
 
 let diffInDays = Math.ceil((todayDate.getTime() - startDate.getTime()) / (1000 * 3600 * 24));
@@ -29,7 +29,7 @@ function App() {
 
   const [tweetTag, tweetTagHandler] = useState('\n#Devsnest');
 
-  const [tweetSize, tweetSizeHandler] = useState(55);
+  const [tweetSize, tweetSizeHandler] = useState(44);
 
   const [dateValue, dateValueHandler] = useState("2021-03-23");
 
@@ -108,7 +108,7 @@ function App() {
           <h4 className={tweetSize <= 280 ? "limit-tweet" : "limit-exceed"}>Limit : {tweetSize}/280</h4>
         </div>
         <br />
-        <span className="btn-tweet" onClick={sendTweet}>Tweet <img src="https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1616608602~hmac=a83d1bc02755f707f222b9ecb02ed4cc" alt="Tweet-Logo" /></span>
+        <span className="btn-tweet" onClick={sendTweet}>Tweet <img src="https://raw.githubusercontent.com/anuraghazra/anuraghazra/master/assets/twitter.svg"alt="Tweet-Logo" /></span>
         <br />
       </div>
   
